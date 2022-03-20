@@ -1,0 +1,11 @@
+17./*Input manipulators*/
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+string s;
+getline(cin,s);
+cout<<s<<endl;//endl gives cursor to next line
+cout<<"This is KRP"<<flush; // using flush makes the cursor remain same position
+cout<<"KRP"<<ends; // ends gives a single blank character
+} 
